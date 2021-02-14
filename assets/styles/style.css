@@ -1,0 +1,165 @@
+.startScreen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  height: 500px;
+  background-color: aquamarine;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.card {
+  width: 120px;
+  height: 90px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  line-height: 90px;
+  background-color: white;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.Button {
+  width: 80px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  line-height: 90px;
+  background-color: white;
+  cursor: pointer;
+  line-height: 60px;
+  outline: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.startButton:hover {
+  background-color: black;
+  color: white;
+}
+
+.gameBoard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  height: 500px;
+  background-color: aquamarine;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gameBoard__cards {
+  width: 140px;
+}
+
+.gameBoard__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.gameBoard__button {
+  width: 80px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  line-height: 90px;
+  background-color: white;
+  cursor: pointer;
+  line-height: 60px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.gameBoard__alert {
+  width: 200px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  font-size: 4rem;
+}
+
+.hide {
+  display: none;
+  opacity: 0;
+}
+
+.switchDifficulty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 auto;
+  width: 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.switchDifficulty__btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  line-height: 90px;
+  background-color: white;
+  cursor: pointer;
+  line-height: 50px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.currentDiff {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

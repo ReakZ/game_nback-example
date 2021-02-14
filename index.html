@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main page</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <div class="startScreen">
+        <h1 class="startScreen__title">Задача n-назад</h1>
+        <h3 class="startScreen__description">Начальные числа:</h3>
+      <div class="card" id="startCard">1</div>
+      <button class="Button" id="startButton">Start</button>
+
+      <div class="switchDifficulty">
+
+        <button class="switchDifficulty__btn currentDiff" value="1">1</button>
+        <button class="switchDifficulty__btn" value="2">2</button>
+      </div>
+    </div>
+
+    <div class="gameBoard hide">
+      <div class="card" id="currentCard">1</div>
+
+      <div class="gameBoard__alert">
+
+    </div>
+      <div class="gameBoard__buttons">
+        <button class="gameBoard__button" id="yesButton">Yes</button>
+        <button class="gameBoard__button" id="noButton">No</button>
+      </div>
+    </div>
+
+    <div class="endScreen hide">
+        <div class="endScreen__scoreTable" id="scoreTable">1</div>
+
+      </div>
+    <script
+      src="https://kit.fontawesome.com/9c6f565505.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/scripts/main.js"></script>
+  </body>
+</html>
